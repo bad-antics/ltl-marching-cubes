@@ -1,0 +1,15 @@
+// ltl-marching-cubes/main.ltl
+//
+// Marching-cubes iso-surface extraction.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-marching-cubes v0.1.0")
+    io::println("Marching-cubes iso-surface extraction.")
+    0
+}
