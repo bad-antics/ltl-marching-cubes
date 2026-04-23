@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_marching_cubes
+
+import std::io
+use ltl_marching_cubes as lib
+
+fn main() {
+    io::println("ltl_marching_cubes demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
